@@ -1,0 +1,74 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #d1ccc0;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #aaa69d;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.add {
+  background-color: #3498db;
+  color: white;
+}
+
+button.edit {
+  background-color: #f39c12;
+  color: white;
+}
+
+button.delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  flex: 1;
+}
